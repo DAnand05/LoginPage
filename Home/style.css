@@ -1,0 +1,45 @@
+body{
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(90deg, hsla(19, 100%, 91%, 1) 0%, hsla(13, 100%, 71%, 1) 100%);
+    /*
+    background: -moz-linear-gradient(90deg, hsla(19, 100%, 91%, 1) 0%, hsla(13, 100%, 71%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(19, 100%, 91%, 1) 0%, hsla(13, 100%, 71%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFE0D2", endColorstr="#FF8C6B", GradientType=1 );*/
+}
+
+.text-right{
+    text-align: right;
+}
+
+.horizontal-list{
+    list-style: none;
+    margin: 0px;
+}
+
+.horizontal-list li{
+    display: inline;
+    margin-right: 20px;
+    font-size: xx-large;
+}
+
+.link{
+    text-decoration: none;
+    color: #000000;
+}
+
+li .link:hover{
+    color: #790000;
+    transform: translate(3ch, 3mm);
+}
+
+nav{
+    background-color: #ff8c6b;
+}
+
+.horizontal-list li:active{
+    transform: scale(0.95);
+}
